@@ -32,7 +32,7 @@ const About: React.FC = () => {
     <div className="text-white md:p-20 p-14">
       <h1 className="text-6xl md:text-7xl font-bold mb-4 font-khula">
         <span className="bg-gradient-to-r from-custom-main to-custom-secondary bg-clip-text text-transparent">
-          Hi!
+          Hello!
         </span>
       </h1>
       <div className={mono.className}>  

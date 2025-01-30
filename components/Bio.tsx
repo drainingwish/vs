@@ -16,7 +16,7 @@ const Bio: React.FC = () => {
         </h2>
         <ul className="text-xl md:text-xl mt-4 space-y-2 drop-shadow-lg shadow-black">
           <li>2 Years of LUA</li>
-          <li>3 Years of Discord JS</li>
+          <li>3 Years of JS & PY</li>
         </ul>
       </div>
     </div>
