@@ -5,13 +5,9 @@ import React, { useEffect, useState } from "react";
 
 const About: React.FC = () => {
   const phrases = [
-    "building things",
-    "problem solving",
-    "open source",
-    "experimenting",
-    "reversing",
-    "automating",
-    "breaking things",
+    "projects",
+    "communities",
+    "socials",
   ];
   const [currentPhrase, setCurrentPhrase] = useState(phrases[0]);
   const [isVisible, setIsVisible] = useState(true);
@@ -39,15 +35,15 @@ const About: React.FC = () => {
           Hi!
         </span>
       </h1>
-      <div className={mono.className}>
+      <div className={mono.className}>  
         <h2 className="text-xl md:text-lg mt-4 font-bold drop-shadow-lg shadow-black">
-          I{"'"}m <span className="text-custom-main">proto</span>, a software
-          engineer from Canada
+          I{"'"}m <span className="text-custom-main">momt</span>, a Project
+          Manager from Florida
         </h2>
         <ul className="text-base md:text-lg mt-4 space-y-4">
           <li>
             <p className="text-white drop-shadow-lg shadow-black">
-              I {"<3"} software{" & "}
+              I {"like"} managing{"  "}
               <span
                 className={`text-custom-main transition-opacity duration-500 ${
                   isVisible ? "opacity-100" : "opacity-0"
@@ -57,18 +53,11 @@ const About: React.FC = () => {
               </span>
             </p>
           </li>
-          <li className="space-y-2">
+          <li>
             <p className="text-white drop-shadow-lg shadow-black">
-              I{"'"}m currently working at{" "}
-              <a
-                target="blank"
-                href="https://tritan.gg/"
-                className="hover:underline text-custom-main font-semibold"
-              >
-                Tritan Internet
-              </a>
+              I am currently looking for projects to work on.
             </p>
-          </li>
+          </li>          
         </ul>
       </div>
     </div>

@@ -1,50 +1,37 @@
 const config = {
   git: {
     siteRepo: "https://github.com/xlarp/vs",
-    projects: {
-      mail: "https://github.com/Team-Tritan/Disposable-Mail",
-    },
-    pwngit: {
-      me: "https://jolts.f0rk.systems/",
-    },
   },
   socials: {
-    github: "https://github.com/xlarp",
-    email: "proto@throwing.lol",
+    github: "https://github.com/drainingwish",
+    email: "momt@draining.info",
     discord: {
-      id: "423452508372074506",
+      id: "1086918714294812814",
     },
   },
   sites: {
-    me: "https://throwing.lol/",
+    me: "https://draining.info/",
   },
   colors: {
-    main: "#ff17aa",
-    secondary: "#ff91d7",
+    main: "#623eff",
+    secondary: "#a291ff",
   },
   embers: {
-    color: "#ff17aa",
+    color: "#623eff",
   },
   technical: {
     languages: [
-      "JavaScript/TypeScript",
+      "Javascript",
       "Python",
-      "C#",
-      "C++",
-      "Go",
-      "Lua/LuaU",
-      "SQL",
-      "Perl",
+      "Lua",
     ],
     frameworks: [
-      "Cloudflare",
-      "Oracle Cloud, AWS, Azure, GCP, DigitalOcean",
       "Roblox Studio",
-      "Docker",
+      "Discord JS",
     ],
     additional: [
-      "Reverse Engineering .NET, Go and C++",
       "OSINT & Reconnaissance",
+      "Project & Community Management",
     ],
   },
 };

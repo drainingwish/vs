@@ -12,10 +12,7 @@ export function Footer() {
         <div className="text-2xl mb-4 font-mono">
           <div className={mono.className}>
             <div className="transition-all duration-500 ease-in-out transform hover:scale-105 text-white hover:text-custom-main mb-1">
-              <a href={_static.sites.me}>throwing.lol</a>
-            </div>
-            <div className="text-sm transition-all duration-500 ease-in-out transform hover:scale-105 text-white/70 hover:text-custom-main mb-4 md:mb-0">
-              <a href={_static.git.siteRepo}>src/</a>
+              <a href={_static.sites.me}>draining.info</a>
             </div>
           </div>
         </div>
@@ -26,7 +23,7 @@ export function Footer() {
               <GithubIcon className="h-5 w-5" />
               <span>
                 <a target="_blank" href={_static.socials.github}>
-                  xlarp
+                  drainingwish
                 </a>
               </span>
             </div>
@@ -43,14 +40,6 @@ export function Footer() {
 
           <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-16">
             <div>
-              <div className="font-medium mb-4 flex items-center space-x-2 transition-all duration-500 ease-in-out transform hover:scale-105 text-white hover:text-custom-main">
-                <PwnIcon className="h-5 w-5" />
-                <span>
-                  <a target="_blank" href={_static.git.pwngit.me}>
-                    jolts
-                  </a>
-                </span>
-              </div>
               <div className="font-medium flex items-center space-x-2 transition-all duration-500 ease-in-out transform hover:scale-105 text-white hover:text-custom-main">
                 <DiscordIcon className="h-5 w-5" />
                 <span>

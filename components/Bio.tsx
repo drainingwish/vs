@@ -6,17 +6,17 @@ const Bio: React.FC = () => {
     <div className="text-white md:p-20 p-14">
       <h1 className="text-6xl md:text-7xl font-bold mb-4 font-khula">
         <span className="bg-gradient-to-r from-custom-main to-custom-secondary bg-clip-text text-transparent">
-          proto
+          momt
         </span>
       </h1>
       <div className={mono.className}>
         <h2 className="text-xl md:text-lg mt-4 font-bold drop-shadow-lg shadow-black">
-          Software / DevOps{" "}
-          <span className="text-custom-secondary">Wizard</span>
+          Community / Project{" "}
+          <span className="text-custom-secondary">Management</span>
         </h2>
         <ul className="text-xl md:text-xl mt-4 space-y-2 drop-shadow-lg shadow-black">
-          <li>6 Years of Experience</li>
-          <li>Golang and TypeScript</li>
+          <li>2 Years of LUA</li>
+          <li>3 Years of Discord JS</li>
         </ul>
       </div>
     </div>

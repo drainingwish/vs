@@ -7,7 +7,7 @@ const Header: React.FC = () => {
     <div className={mono.className}>
       <header className="flex flex-col md:flex-row justify-center md:justify-between items-center p-4 relative md:fixed text-white mt-8 w-full z-30 top-0 md:right-0 md:pr-60">
         <div className="font-mono text-lg md:text-xl tracking-widest mb-4 md:mb-0 absolute w-full text-center md:relative md:text-left left-0 pl-40">
-          throwing.lol
+          draining.info
         </div>
 
         <nav className="md:absolute right-0 pr-40">
@@ -19,7 +19,7 @@ const Header: React.FC = () => {
               <Link href="/about">About</Link>
             </li>
             <li className="text-white hover:text-custom-main cursor-pointer transition-all duration-500 ease-in-out transform hover:scale-105">
-              <Link href="/skills">Skills</Link>
+              <Link href="/skills">Experience</Link>
             </li>
           </ul>
         </nav>

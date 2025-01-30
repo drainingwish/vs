@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <title>proto - throwing.lol</title>
+      <title>momt - draining.info</title>
       <meta name="author" content="jolts" />
       <link rel="icon" href="/favicon.ico" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

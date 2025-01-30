@@ -6,7 +6,7 @@ const Skills: React.FC = () => {
   return (
     <div className="text-white md:p-20 p-14">
       <h1 className="text-4xl md:text-5xl font-bold mb-4 font-khula">
-        <span className="text-custom-main bg-clip-text">Technical Skills</span>
+        <span className="text-custom-main bg-clip-text">Experience in</span>
       </h1>
       <div className={mono.className}>
         <section>

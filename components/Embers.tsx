@@ -93,15 +93,18 @@ const EmberBackground = () => {
     setSize();
     window.addEventListener("resize", setSize);
 
-    const embers = Array.from({ length: 150 }, () => ({
-      x: Math.random() * canvas.width,
-      y: Math.random() * canvas.height,
-      size: Math.random() * 3 + 1,
-      speed: Math.random() * 2 + 0.5,
-      opacity: Math.random() * 0.7 + 0.3,
-      flickerSpeed: Math.random() * 0.03 + 0.01,
-      flickerDirection: 1,
-    }));
+    const embers = Array.from({ length: 190 }, () => {
+      const random = Math.random();
+      return {
+        x: random * canvas.width,
+        y: random * canvas.height,
+        size: random * 5 + 2,
+        speed: random + 0.7,
+        opacity: random,
+        flickerSpeed: random * 0.02 + 0.01,
+        flickerDirection: 1,
+      };
+    });
 
     animate(ctx, embers, canvas);
 
