@@ -2,4 +2,4 @@
 
 ## Sites
 
-- [throwing.lol](https://throwing.lol)
+- [draining.info](draining.info)
