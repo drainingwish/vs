@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { JetBrains_Mono, Khula } from "next/font/google";
+import Head from "next/head";
 
 export const mono = JetBrains_Mono({
   subsets: ["latin"],
@@ -23,6 +24,10 @@ export const khula = Khula({
 function App({ Component, pageProps }: AppProps) {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
+      <Head>
+        <title>momt - draining.info</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <EmberBackground />
       <Header />
       <main className="flex-grow">
