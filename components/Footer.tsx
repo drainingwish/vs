@@ -51,6 +51,14 @@ export function Footer() {
                   </a>
                 </span>
               </div>
+              <div className="font-medium flex items-center space-x-2 transition-all duration-500 ease-in-out transform hover:scale-105 text-white hover:text-custom-main mt-4">
+                <PwnIcon className="h-5 w-5" />
+                <span>
+                  <a target="_blank" href={_static.socials.roblox}>
+                    roblox
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </div>

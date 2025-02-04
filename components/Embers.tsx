@@ -1,7 +1,7 @@
-import staticAssets from "@/static";
+import resources from "@/static";
 import { useCallback, useEffect, useRef } from "react";
 
-const EmberBackground = () => {
+function EmberBackground() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   interface Ember {
@@ -29,7 +29,7 @@ const EmberBackground = () => {
     ) => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      const emberRGB = hexToRGB(staticAssets.embers.color);
+      const emberRGB = hexToRGB(resources.background.color);
 
       embers.forEach((ember) => {
         ember.opacity += ember.flickerSpeed * ember.flickerDirection;
@@ -93,18 +93,15 @@ const EmberBackground = () => {
     setSize();
     window.addEventListener("resize", setSize);
 
-    const embers = Array.from({ length: 190 }, () => {
-      const random = Math.random();
-      return {
-        x: random * canvas.width,
-        y: random * canvas.height,
-        size: random * 5 + 2,
-        speed: random + 0.7,
-        opacity: random,
-        flickerSpeed: random * 0.02 + 0.01,
-        flickerDirection: 1,
-      };
-    });
+    const embers = Array.from({ length: 150 }, () => ({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      size: Math.random() * 3 + 1,
+      speed: Math.random() * 2 + 0.5,
+      opacity: Math.random() * 0.7 + 0.3,
+      flickerSpeed: Math.random() * 0.03 + 0.01,
+      flickerDirection: 1,
+    }));
 
     animate(ctx, embers, canvas);
 
@@ -118,6 +115,6 @@ const EmberBackground = () => {
       style={{ background: "#111" }}
     />
   );
-};
+}
 
 export default EmberBackground;

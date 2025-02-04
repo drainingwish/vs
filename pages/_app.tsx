@@ -1,4 +1,4 @@
-import EmberBackground from "@/components/Embers";
+import EmberBackground from "@/components/Stars";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import "@/styles/globals.css";
