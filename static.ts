@@ -1,10 +1,18 @@
 export default {
+  work: [
+    {
+      title: "0days Discord bot",
+      role: "Project Manager",
+      site: "https://0days.lol",
+    },
+  ],
   default: {
     domain: "draining.info",
   },
   socials: {
     github: "https://github.com/drainingwish",
     roblox: "https://www.roblox.com/users/59200704/profile",
+    discorduser: "https://discord.com/users/1086918714294812814",
     email: "momt@draining.info",
     discord: {
       id: "1086918714294812814",

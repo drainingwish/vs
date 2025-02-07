@@ -2,10 +2,10 @@ import Bio from "@/components/Bio";
 
 function Home() {
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-col items-start px-20 py-18 flex-grow bg-cover bg-center">
-        <div className="flex-grow relative pt-24">
-          <div className="relative mt-5">
+    <div className="flex flex-col pt-2">
+      <div className="flex flex-col items-start px-20 py-18  bg-cover bg-center">
+        <div className="relative pt-4">
+          <div className="relative">
             <Bio />
           </div>
         </div>
