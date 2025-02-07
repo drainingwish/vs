@@ -1,7 +1,7 @@
 export default {
   work: [
     {
-      title: "0days Discord bot",
+      title: "0days Discord Bot",
       role: "Project Manager",
       site: "https://0days.lol",
     },
@@ -14,6 +14,7 @@ export default {
     roblox: "https://www.roblox.com/users/59200704/profile",
     discorduser: "https://discord.com/users/1086918714294812814",
     email: "momt@draining.info",
+    bluesky: "https://bsky.app/profile/draining.info",
     discord: {
       id: "1086918714294812814",
       name: "hatelarps",

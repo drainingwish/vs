@@ -1,7 +1,7 @@
 import { mono } from "@/pages/_app";
 import resources from "@/static";
 import { motion } from "framer-motion";
-import { AtSignIcon, MailIcon, GithubIcon, BoxIcon } from "lucide-react";
+import { AtSignIcon, BirdIcon, GithubIcon, BoxIcon } from "lucide-react";
 
 export function Footer() {
   return (
@@ -47,10 +47,10 @@ export function Footer() {
               transition={{ duration: 0.2 }}
               className="font-medium flex items-center space-x-2 text-white"
             >
-              <MailIcon className="h-5 w-5" />
+              <BirdIcon className="h-5 w-5" />
               <span>
-                <a target="_blank" href={resources.socials.email}>
-                  Contact
+                <a target="_blank" href={resources.socials.bluesky}>
+                  Bluesky
                 </a>
               </span>
             </motion.div>
