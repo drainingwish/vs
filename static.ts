@@ -26,6 +26,7 @@ export default {
       "Javascript",
       "Python",
       "Lua",
+      "Typescript",
     ],
     frameworks: [
       "Roblox Studio",
