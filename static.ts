@@ -1,7 +1,7 @@
 export default {
   work: [
     {
-      title: "0days Discord Bot",
+      title: "0days Development",
       role: "Project Manager",
       site: "https://0days.lol",
     },
