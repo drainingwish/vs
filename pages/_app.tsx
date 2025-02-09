@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import ShootingStarsBackground from "@/components/Embers";
+import ShootingStarsBackground from "@/components/WhiteDots";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { JetBrains_Mono, Khula } from "next/font/google";
