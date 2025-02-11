@@ -53,6 +53,8 @@ export default {
     additional: [
       "OSINT & Reconnaissance",
       "Project & Community Management",
+      "Public Relations & Marketing Management",
+      "Social Media Management & Growth",
     ],
   },
 } as const;
