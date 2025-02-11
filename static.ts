@@ -39,6 +39,7 @@ export default {
     ],
     frameworks: [
       "Roblox Studio",
+      "Knit Roblox Framework",
       "Discord JS",
     ],
     projects: [
