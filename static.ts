@@ -17,7 +17,7 @@ export default {
     bluesky: "https://bsky.app/profile/draining.info",
     discord: {
       id: "1086918714294812814",
-      name: "hatelarps",
+      name: "drainingwishes",
     },
   },
   sites: {
