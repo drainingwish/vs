@@ -8,6 +8,7 @@ export default {
   ],
   default: {
     domain: "draining.info",
+    redir: "momt.lol",
   },
   socials: {
     github: "https://github.com/drainingwish",

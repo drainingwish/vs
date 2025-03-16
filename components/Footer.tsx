@@ -19,8 +19,8 @@ export function Footer() {
               transition={{ duration: 0.2 }}
               className="text-white mb-1"
             >
-              <a href={`//${resources.default.domain}`}>
-                {resources.default.domain}
+              <a href={`//${resources.default.redir}`}>
+                {resources.default.redir}
               </a>
             </motion.div>
 
