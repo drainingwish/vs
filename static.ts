@@ -43,14 +43,22 @@ export default {
       "Knit Roblox Framework",
       "Discord JS",
     ],
-    projects: [
-      "0days Discord Bot",
-      "Voidstar Development",
+    currentprojects: [
+      "Stack Discord Bot - Project Manager",
+      "Sedated Bio-link  - Project Manager",
     ],
-    communities: [
-      "#RR Studio",
-      "Napalm Studio",
-      "DOJRP SS",
+    formerprojects: [
+      "Voidstar Development - Developer Lead",
+    ],
+    currentcommunities: [
+      "DOJRP SS - Management",
+    ],
+    formercommunities: [
+      "#RR Studio - Head Administrator",
+      "Napalm Studios - Manager",
+      "Project Slayers - Former Game Moderator",
+      "Type://Reborn - Former Game Moderator",
+      "Soccer Legends - Former Support Team",
     ],
     additional: [
       "OSINT & Reconnaissance",

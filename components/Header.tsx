@@ -73,6 +73,16 @@ function Header() {
                 <Link href="/skills">Experience</Link>
               </span>
             </motion.li>
+            <motion.li
+              variants={item}
+              whileHover={{ scale: 1.05, color: resources.colors.main }}
+              transition={{ duration: 0.2 }}
+              className="text-white cursor-pointer"
+            >
+              <span className="text-custom-secondary hover:text-custom-main transition-colors">
+                <Link href="/projects">Projects</Link>
+              </span>
+            </motion.li>
           </motion.ul>
         </nav>
       </motion.header>
