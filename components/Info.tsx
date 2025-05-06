@@ -57,7 +57,7 @@ function About() {
             transition={{ delay: 0.4 }}
             className="mt-2 text-base md:text-lg"
           >
-            I'm a Project Manager / Game Moderator from Florida.
+            I'm a Project Manager / Community Moderator from Florida.
           </motion.p>
           <motion.p
             initial={{ opacity: 0 }}
